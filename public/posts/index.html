@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
   <meta name="generator" content="Hugo 0.60.1" />
-  <link rel="canonical" href="https://zmackie.com/posts/">
+  <link rel="canonical" href="/posts/">
 
   
 
@@ -18,11 +18,11 @@
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="theme-color" content="#ffffff">
 
-  <link rel="stylesheet" type="text/css" href="https://zmackie.com/css/paper.css">
+  <link rel="stylesheet" type="text/css" href="css/paper.css">
 
   
   
-  <link rel="stylesheet" type="text/css" href="https://zmackie.com/css/custom.css">
+  <link rel="stylesheet" type="text/css" href="/css/custom.css">
 
   
   
@@ -65,30 +65,168 @@
 
 
   <h2 class="post-list summary">
-    <a href="https://zmackie.com/posts/my-third-post/">
-      My Third Post
-    </a>
-  </h2>
-  
-    
-  
-
-  <h2 class="post-list summary">
-    <a href="https://zmackie.com/posts/my-second-post/">
-      My Second Post
-    </a>
-  </h2>
-  
-    
-  
-
-  <h2 class="post-list summary">
-    <a href="https://zmackie.com/posts/my-first-post/">
+    <a href="/posts/my-first-post/">
       My First Post
     </a>
   </h2>
   
     
+  
+
+  <h2 class="post-list summary">
+    <a href="/posts/what-even-is-a-container/">
+      What even is a container
+    </a>
+  </h2>
+  
+    Cgroups
+Namespaces
+Seccomp
+Etc
+OCI image format
+  
+
+  <h2 class="post-list summary">
+    <a href="/posts/give-a-damn/">
+      Give a damn
+    </a>
+  </h2>
+  
+    In my last post, at the very end, I alluded to a Docker cli gotcha. For those of you who didn't have a shudder of recognition, I'll tell you something it took me a while to figure out: docker run koolKontainer:latest /bin/bash does not update your local copy of the image with that tag. You must docker pull koolKontainer:latest to make sure your image is up to date.
+In other words, if you have an old copy of that image, tagged with latest, the former command will run that old local copy.
+  
+
+  <h2 class="post-list summary">
+    <a href="/posts/the-joys-of-debugging/">
+      The Joys of debugging
+    </a>
+  </h2>
+  
+    Today at work I was trying to merging a PR, and I noticed something very strange during the rebase. I work on a team that, among other things, manages dependencies for applications [https://github.com/buildpack]. We define the versions of a runtime available to an application through a manifest, which is in YAML form. And part of the manifest includes SHAs of the runtimes, which we use to verify their integrity.
+A select few of SHAs now had single quotes around them.
+  
+
+  <h2 class="post-list summary">
+    <a href="/posts/learning-how-to-learn/">
+      &#39;Learning How to Learn&#39;
+    </a>
+  </h2>
+  
+    &lsquo;Learning how to learn&rsquo;, by Barbara Oakley, is a compendium of techniques for learning effectively or more effectively, backed by neuroscience and cognitive psychology. Increasing ones ability to learn speeds up your knowledge compounding rate, and is time magnificently well spent.
+ Know of and take advantage of the different modes of the brain: Diffuse and Focussed. If you're learning something totally new or you're stuck on a problem, take a break of some sort to allow diffuse mode to do its work.
+  
+
+  <h2 class="post-list summary">
+    <a href="/posts/i-am-security-and-so-can-you/">
+      I am security and so can you
+    </a>
+  </h2>
+  
+    Security, from the perspective of a programmer, often feels abstract. It's both a domain of knowledge and a quality of the programs we write and the systems we construct. And given that, how does one approach learning security? How do we know if our code is insecure? How can we make our code more secure? Its not something you can easily measure, and the scope and scales of it boggle the mind.
+  
+
+  <h2 class="post-list summary">
+    <a href="/posts/the-wisdom-of-cliff-stoll/">
+      The Wisdom of Cliff Stoll
+    </a>
+  </h2>
+  
+    
+  
+
+  <h2 class="post-list summary">
+    <a href="/posts/working-hard-to-be-lazy/">
+      Working hard to be lazy
+    </a>
+  </h2>
+  
+    So that's a picture of a great writer, UKLG. She's completely not lazy, so apologies to her for inclusion. She's here, though, because she invented something great: The ansible 🌌. And why is that relevant? We'll get there&hellip;
+As any smart human person in charge of configuring and managing computers knows, I'm bad at my job. Or rather, my job is nearly impossible to be good at, given my human limitations.
+  
+
+  <h2 class="post-list summary">
+    <a href="/posts/fuzzing-open-vnc/">
+      Fuzzing Open VNC
+    </a>
+  </h2>
+  
+    
+  
+
+  <h2 class="post-list summary">
+    <a href="/posts/stuff-you-might-want-to-learn-if.../">
+      Stuff you might want to learn if...
+    </a>
+  </h2>
+  
+    ** ..you work with computers: How your brain works How to make decisions How to learn [https://www.coursera.org/learn/learning-how-to-learn] How to be effective [https://www.youtube.com/watch?v=QXN35r2_20s] Good things other people have already figured out
+** ..you work with other people in technology
+How computers work:
+ From nand to tetris (book + coursera) Computer systems: a programmers perspective GDB: https://beej.us/guide/bggdb/ Assembly vidoes: https://www.youtube.com/playlist?list=PLmxT2pVYo5LB5EzTPZGfFN0c2GDiSXgQe  Networking:
+ TCP/IP illustrated, vol. 1 Some videos wireshark  
+  
+
+  <h2 class="post-list summary">
+    <a href="/posts/constraints/">
+      Constraints
+    </a>
+  </h2>
+  
+    Artists are famously driven by cons
+  
+
+  <h2 class="post-list summary">
+    <a href="/posts/about/">
+      About
+    </a>
+  </h2>
+  
+    I'm Zander Mackie. I work in tech, on cloud stuff and security, but I'm more interested in people and bugs than bits. I want to be Dan Geer when I grow up.
+In past lives, I studied music with monks in mountains, crafted cave-aged cheese, and edited evil advertisments. You could say I've seen a lot. I don't know if I'm old, wise, and sad yet, but I've got some grey hairs to prove it.
+  
+
+  <h2 class="post-list summary">
+    <a href="/posts/important-problems/">
+      Important Problems
+    </a>
+  </h2>
+  
+    Richard Hamming asked the chemists in the Bell Labs Cafeteria:
+What are the most important problems in your field? And why aren't you working on them?
+The ever brilliant Haroon Meer got me thinking about this question recently; what are the important problems these days? And why aren't I working on them?
+In technology, so much seems driven by the market, advertising, and hype. I suppose that's better than war being the engine, but it somehow seems hollow.
+  
+
+  <h2 class="post-list summary">
+    <a href="/posts/how-i-learned-how-to-learn-how-to-code/">
+      How I learned how to learn how to code
+    </a>
+  </h2>
+  
+    I was reading the Turing Omnibus, doing some research into error correction, and I learned about Hamming Codes. I might have understood the concept at the time, but today, what I remember is the offhand comment my friend made about their creator, Richard Hamming.
+Oh you should watch his talk &ldquo;You and Your Research&rdquo;
+At this point in my life, I'd been laid off form my first startup and was taking a break to &ldquo;get better at programming&rdquo;.
+  
+
+  <h2 class="post-list summary">
+    <a href="/posts/night-day/">
+      Night &amp; Day
+    </a>
+  </h2>
+  
+    Let's open with a cliche: What a difference a day makes.[1]
+Yesterday was Friday. An RC batch runs M-Th for &ldquo;normal&rdquo; days, reserving Fridays for prepping for interviews and job related stuff. The point is to bracket that time and that stress so the rest of the week we focus on programming, not job hunting. That's smart. Another example of removing the barriers to improvement.
+Yesterday we did a practice interview project: spend 3 hours building a link shortener ala bit.
+  
+
+  <h2 class="post-list summary">
+    <a href="/posts/limits/">
+      Limits
+    </a>
+  </h2>
+  
+    I'm afraid to publish this post[1], but naming things can often kill their power over you, as Ged learned of his shadow. And so it is with some trepidation that I bring you the following story:
+One of my goals at RC was to blog every day I was there. I kept this going for a good while, but I recently fell down. For the last two weeks it's been radio silence.
   
 
 

@@ -3,32 +3,97 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://zmackie.com/posts/my-third-post/</loc>
-    <lastmod>2019-12-13T15:36:36-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://zmackie.com/posts/</loc>
-    <lastmod>2019-12-13T15:36:36-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://zmackie.com/</loc>
-    <lastmod>2019-12-13T15:36:36-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://zmackie.com/posts/my-second-post/</loc>
-    <lastmod>2019-12-13T15:36:31-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://zmackie.com/posts/my-first-post/</loc>
+    <loc>/posts/my-first-post/</loc>
     <lastmod>2019-12-13T15:31:16-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://zmackie.com/tags/</loc>
+    <loc>/posts/</loc>
+    <lastmod>2019-12-13T15:31:16-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2019-12-13T15:31:16-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/what-even-is-a-container/</loc>
+    <lastmod>2018-12-03T12:33:35+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/give-a-damn/</loc>
+    <lastmod>2018-11-13T18:43:01+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/the-joys-of-debugging/</loc>
+    <lastmod>2018-11-01T21:31:21+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/learning-how-to-learn/</loc>
+    <lastmod>2018-09-02T11:03:29+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/i-am-security-and-so-can-you/</loc>
+    <lastmod>2018-08-12T17:43:13+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/the-wisdom-of-cliff-stoll/</loc>
+    <lastmod>2018-08-12T17:42:57+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/working-hard-to-be-lazy/</loc>
+    <lastmod>2018-06-24T12:50:45+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/fuzzing-open-vnc/</loc>
+    <lastmod>2018-06-22T11:09:38+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/stuff-you-might-want-to-learn-if.../</loc>
+    <lastmod>2018-05-14T16:58:44+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/constraints/</loc>
+    <lastmod>2018-05-08T01:26:26+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/about/</loc>
+    <lastmod>2018-05-08T01:13:33+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/important-problems/</loc>
+    <lastmod>2018-05-08T00:01:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/how-i-learned-how-to-learn-how-to-code/</loc>
+    <lastmod>2018-05-07T23:35:01+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/night-day/</loc>
+    <lastmod>2018-05-07T23:32:09+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/limits/</loc>
+    <lastmod>2018-05-07T23:18:07+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
   </url>
   
 </urlset>
