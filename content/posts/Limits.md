@@ -1,10 +1,10 @@
 
 +++
-title = "Limits"
-draft = false
-date = "2018-05-07T23:18:07.000Z"
-
+title: "Limits"
+draft: true
+date: "2018-05-07T23:18:07.000Z"
 +++
+
 I'm afraid to publish this post[1], but naming things can often kill their power
 over you, as Ged learned of his shadow. And so it is with some trepidation that
 I bring you the following story:

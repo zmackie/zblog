@@ -1,8 +1,8 @@
 
 +++
-title = "'Learning How to Learn'"
-draft = false
-date = "2018-09-02T11:03:29.000Z"
+title: "'Learning How to Learn'"
+draft: true
+date: "2018-09-02T11:03:29.000Z"
 
 +++
 'Learning how to learn', by Barbara Oakley, is a compendium of techniques for
@@ -17,7 +17,7 @@ compounding rate, and is time magnificently well spent.
     time to integrate new information. It can also be useful for overcoming
     procrastination
  3. Exercise: it increases your memory and ability to learn new things
- 4. Re-reading and highlighting aren't as effective as studying and then 
+ 4. Re-reading and highlighting aren't as effective as studying and then
     attempting to recall  directly the content of the material you're studying
     (page, video, etc).
  5. Practice and review  of material are key to deeper mastery

@@ -1,8 +1,8 @@
 
 +++
-title = "Give a damn"
-draft = false
-date = "2018-11-13T18:43:01.000Z"
+title: "Give a damn"
+draft: true
+date: "2018-11-13T18:43:01.000Z"
 
 +++
 In my last post, at the very end, I alluded to a Docker cli gotcha. For those of
