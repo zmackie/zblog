@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://zmackie.com/posts/my-third-post/</loc>
+    <lastmod>2019-12-13T15:36:36-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zmackie.com/posts/</loc>
+    <lastmod>2019-12-13T15:36:36-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zmackie.com/</loc>
+    <lastmod>2019-12-13T15:36:36-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zmackie.com/posts/my-second-post/</loc>
+    <lastmod>2019-12-13T15:36:31-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zmackie.com/posts/my-first-post/</loc>
+    <lastmod>2019-12-13T15:31:16-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zmackie.com/tags/</loc>
+  </url>
+  
+</urlset>
