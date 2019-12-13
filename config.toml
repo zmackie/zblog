@@ -1,7 +1,7 @@
 baseURL = ""
 languageCode = "en-us"
 defaultContentLanguage = "en"
-title: "Zander Mackie"
+title = "Zander Mackie"
 theme = "papercss-hugo-theme"
 googleAnalytics = "UA-123456789-1"
 
