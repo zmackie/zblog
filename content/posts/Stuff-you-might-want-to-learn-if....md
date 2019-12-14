@@ -1,8 +1,8 @@
 
 +++
-title: "Stuff you might want to learn if..."
-draft: true
-date: "2018-05-14T16:58:44.000Z"
+title = "Stuff you might want to learn if..."
+draft = false
+date = "2018-05-14T16:58:44.000Z"
 
 +++
 ** ..you work with computers:
@@ -19,7 +19,7 @@ How computers work:
  * From nand to tetris (book + coursera)
  * Computer systems: a programmers perspective
  * GDB: https://beej.us/guide/bggdb/
- * Assembly vidoes:
+ * Assembly vidoes: 
    https://www.youtube.com/playlist?list=PLmxT2pVYo5LB5EzTPZGfFN0c2GDiSXgQe
 
 Networking:

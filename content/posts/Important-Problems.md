@@ -1,8 +1,8 @@
 
 +++
-title: "Important Problems"
-draft: true
-date: "2018-05-08T00:01:00.000Z"
+title = "Important Problems"
+draft = false
+date = "2018-05-08T00:01:00.000Z"
 
 +++
 Richard Hamming asked the chemists in the Bell Labs Cafeteria:
@@ -45,10 +45,10 @@ cut against my grain is a start. And maybe that's okay for now. I'm a bit over
 3.5 years into a career in software; I taught myself to do this with the help
 of
 a blacksmith
-[http://joshuakemp.blogspot.com/2013/11/how-blacksmith-learned-to-code-and-9.html]
+[http://joshuakemp.blogspot.com/2013/11/how-blacksmith-learned-to-code-and-9.html] 
  (I literally googled "how to learn how to code" and just followed his advice).
 And even though I beat up on myself, if I'm honest I feel like I'm progressing
 at an acceptable trajectory. But I want to ultimately do high impact work in
 this field or, as someone so aptly put it, be a chef instead of a cook. Or else
-why bother? And so for now, I have an important problem: I have to actually find
+why bother? And so for now, I have an important problem: I have to actually find 
  the important problems. I'll let you know when I figure them out.

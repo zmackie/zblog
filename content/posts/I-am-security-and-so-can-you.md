@@ -1,8 +1,8 @@
 
 +++
-title: "I am security and so can you"
-draft: true
-date: "2018-08-12T17:43:13.000Z"
+title = "I am security and so can you"
+draft = false
+date = "2018-08-12T17:43:13.000Z"
 
 +++
 Security, from the perspective of a programmer, often feels abstract. It's both

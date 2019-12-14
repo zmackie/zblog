@@ -1,8 +1,8 @@
 
 +++
-title: "About"
-draft: true
-date: "2018-05-08T01:13:33.000Z"
+title = "About"
+draft = false
+date = "2018-05-08T01:13:33.000Z"
 
 +++
 I'm Zander Mackie. I work in tech, on cloud stuff and security, but I'm more

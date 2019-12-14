@@ -1,8 +1,8 @@
 
 +++
-title: "The Joys of debugging"
-draft: true
-date: "2018-11-01T21:31:21.000Z"
+title = "The Joys of debugging"
+draft = false
+date = "2018-11-01T21:31:21.000Z"
 
 +++
 Today at work I was trying to merging a PR, and I noticed something very strange

@@ -1,8 +1,8 @@
 
 +++
-title: "Night & Day"
-draft: true
-date: "2018-05-07T23:32:09.000Z"
+title = "Night & Day"
+draft = false
+date = "2018-05-07T23:32:09.000Z"
 
 +++
 Let's open with a cliche: What a difference a day makes.[1]
@@ -14,7 +14,7 @@ hunting. That's smart. Another example of removing the barriers to improvement.
 
 Yesterday we did a practice interview project: spend 3 hours building a link
 shortener ala bit.ly. I had a great time hacking on some Ruby  and I was able to
-build a working prototype in the time pretty handily using Sinatra  and the
+build a working prototype in the time pretty handily using Sinatra  and the 
 stlib. I was quite surprised, actually, that it all came together pretty
 smoothly and I had time to build a few iterations, starting with something
 working, then improving validation of URLs and the structuring of more
@@ -57,7 +57,7 @@ long run (ie. can I program this algorithm in the moment, or can I work hard,
 learn it, and keep learning over my career). And I recognize now that I've been
 hampered in my life by a fixed mindset
 [https://en.wikipedia.org/wiki/Carol_Dweck]. Coming to this field without CS
-schooling, I feel pretty inadequate sometimes. But learning to program at all
+schooling, I feel pretty inadequate sometimes. But learning to program at all 
 has started to break me of that mental habit, though it still rears its ugly
 head.
 

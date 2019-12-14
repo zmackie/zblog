@@ -1,8 +1,8 @@
 
 +++
-title: "How I learned how to learn how to code"
-draft: true
-date: "2018-05-07T23:35:01.000Z"
+title = "How I learned how to learn how to code"
+draft = false
+date = "2018-05-07T23:35:01.000Z"
 
 +++
 I was reading the Turing Omnibus, doing some research into error correction, and
@@ -47,7 +47,7 @@ So, for example, learning the latest Javascript framework du-jour or the Webpack
 v3 module apis, would not be useful knowledge because it will likely be
 obsoleted by a PR from the next boot camp grad hire at your job before you've
 finished this paragraph. Not to say you shouldn't learn it, but I would strongly
-suggest learning only as little as necessary to get your job done (Just in Time
+suggest learning only as little as necessary to get your job done (Just in Time 
 learning). Instead, focus on really learning Javascript, the language. Or focus
 on learning Programming Languages  in the abstract. Or focus on learning C (what
 a shockingly elitist thing to say 😱). Or learn assembly because you'll actually
@@ -118,5 +118,5 @@ see far.
 
 --------------------------------------------------------------------------------
 
- 1. This, I subsequently learned, is a Red Queen situation, well treated by
+ 1. This, I subsequently learned, is a Red Queen situation, well treated by 
     Farnam Street [https://www.fs.blog/2012/10/the-red-queen-effect/]  ↩︎
