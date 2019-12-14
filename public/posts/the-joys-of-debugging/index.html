@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
   <meta name="generator" content="Hugo 0.60.1" />
-  <link rel="canonical" href="/posts/the-joys-of-debugging/">
+  <link rel="canonical" href="zmackie.com/posts/the-joys-of-debugging/">
 
   
 
@@ -18,11 +18,11 @@
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="theme-color" content="#ffffff">
 
-  <link rel="stylesheet" type="text/css" href="css/paper.css">
+  <link rel="stylesheet" type="text/css" href="zmackie.com/css/paper.css">
 
   
   
-  <link rel="stylesheet" type="text/css" href="/css/custom.css">
+  <link rel="stylesheet" type="text/css" href="/zmackie.com/css/custom.css">
 
   
   
@@ -46,13 +46,13 @@
     <div class="collapsible-body">
       <ul class="inline">
       
-        <li><a href="/">Blog</a></li>
+        <li><a href="zmackie.com/">Posts</a></li>
       
-        <li><a href="/tags/">Tags</a></li>
+        <li><a href="zmackie.com/tags/">Tags</a></li>
       
-        <li><a href="/about/">About</a></li>
+        <li><a href="zmackie.com/about/">About</a></li>
       
-        <li><a href="/index.xml">RSS</a></li>
+        <li><a href="zmackie.com/index.xml">RSS</a></li>
       
       </ul>
     </div>
@@ -116,36 +116,46 @@ don't have a bug if you can't reproduce it; you have a Heisenbug or some
 distributed systems Gremlin. Or you're drunk. Anway, try and catch that Gremlin
 and put it in a bottle 👹. We wrote a little Ruby program that should reproduce
 the behavior:</p>
-<p>require &lsquo;yaml&rsquo;</p>
-<p>put YAML::VERSION</p>
-<p>testCase = {sha:
-&lsquo;0911c3aeb2c25dd0a41f0225e0c0f2baaa404ffb9cd772166133572f5fb91112&rsquo;}</p>
-<p>puts YAML.dump(testCase)</p>
-<p>So now, bug-in-a-bottle in hand, we can test our hypothesis. Here's how we
-tested it:</p>
-<p>○ → docker run -v $(pwd):/tmp/test -it cfbuildpacks/ci:latest bash -c &ldquo;cd /tmp/test &amp;&amp; ruby test.rb</p>
-<p>2.0.17
-sha: 0911c3aeb2c25dd0a41f0225e0c0f2baaa404ffb9cd772166133572f5fb91112</p>
-<p>○ → ruby test.rb</p>
-<p>2.1.0
-sha: &lsquo;0911c3aeb2c25dd0a41f0225e0c0f2baaa404ffb9cd772166133572f5fb91112&rsquo;</p>
-<p>AHA⚠️ So there it is&hellip;problem isolated. But&hellip;wait that's not what we
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ruby" data-lang="ruby">require <span style="color:#e6db74">&#39;yaml&#39;</span>
+
+put <span style="color:#66d9ef">YAML</span><span style="color:#f92672">::</span><span style="color:#66d9ef">VERSION</span>
+
+testCase <span style="color:#f92672">=</span> {<span style="color:#e6db74">sha</span>:
+<span style="color:#e6db74">&#39;0911c3aeb2c25dd0a41f0225e0c0f2baaa404ffb9cd772166133572f5fb91112&#39;</span>}
+
+puts <span style="color:#66d9ef">YAML</span><span style="color:#f92672">.</span>dump(testCase)
+
+<span style="color:#66d9ef">So</span> now, bug<span style="color:#f92672">-</span><span style="color:#66d9ef">in</span><span style="color:#f92672">-</span>a<span style="color:#f92672">-</span>bottle <span style="color:#66d9ef">in</span> hand, we can test our hypothesis<span style="color:#f92672">.</span> <span style="color:#66d9ef">Here</span><span style="color:#e6db74">&#39;s how we
+</span><span style="color:#e6db74">tested it:
+</span><span style="color:#e6db74">
+</span><span style="color:#e6db74">○ → docker run -v $(pwd):/tmp/test -it cfbuildpacks/ci:latest bash -c &#34;cd /tmp/test &amp;&amp; ruby test.rb
+</span><span style="color:#e6db74">
+</span><span style="color:#e6db74">2.0.17
+</span><span style="color:#e6db74">sha: 0911c3aeb2c25dd0a41f0225e0c0f2baaa404ffb9cd772166133572f5fb91112
+</span><span style="color:#e6db74">
+</span><span style="color:#e6db74">
+</span><span style="color:#e6db74">○ → ruby test.rb
+</span><span style="color:#e6db74">
+</span><span style="color:#e6db74">2.1.0
+</span><span style="color:#e6db74">sha: &#39;</span><span style="color:#ae81ff">0911</span><span style="color:#f92672"></span>c3aeb2c25dd0a41f0225e0c0f2baaa404ffb9cd772166133572f5fb91112<span style="color:#960050;background-color:#1e0010">&#39;</span>
+
+</code></pre></div><p>AHA⚠️ So there it is&hellip;problem isolated. But&hellip;wait that's not what we
 expected&hellip;that's the opposite! I mean, clearly there's something to our
 hypothesis, but we were just confused at that point! Hmmm. So leaning back, I
 let my mind relax. After I woke up from my nap, I vaguely remembered seeing
 something like this before&hellip;something to do with floats and YAML&hellip;lets check
 the psych  commits to see if anything stands out.</p>
 <p>Again, git to the rescue. Luckily, Github has a great compare ui, which I
-utilized like so to compare the tags
-[<a href="https://github.com/ruby/psych/compare/v2.0.17...v2.1.0">https://github.com/ruby/psych/compare/v2.0.17...v2.1.0</a>]. And now that  looks
+utilized like so to <a href="https://github.com/ruby/psych/compare/v2.0.17...v2.1.0">compare the tags</a>. And now that  looks
 promising</p>
+<blockquote>
 <p>&ldquo;Support YAML 1.2 Core Schema.&ldquo;Looking through that commit, and the issue
 linked, I found myself in the YAML spec. Oh lord.</p>
+</blockquote>
 <p>Well it actually wasn't all that bad. I learned that YAML is crazy! But more
 importantly, I learned that a new part of the spec changes the behavior for
 recognizing floats, making strings starting with a zero optionally resolved as
-floats via some implicit typecasting. And sure enough, with this commit
-[<a href="https://github.com/ruby/psych/commit/b737f0811a9687cf86f44f0a35f61cbde9eac673">https://github.com/ruby/psych/commit/b737f0811a9687cf86f44f0a35f61cbde9eac673</a>],
+floats via some implicit typecasting. And sure enough, with <a href="https://github.com/ruby/psych/commit/b737f0811a9687cf86f44f0a35f61cbde9eac673">this commit</a>,
 psych was wrapping value starting in zeros in quotes.</p>
 <p>And that was more spec compliant, thought it threw us off. It was wasn't a bug,
 just a surprise. So we must be pulling in the new code. So the lesson here:  if
@@ -155,11 +165,11 @@ reading the code of your dependencies, is the most tedious but most rewarding
 and useful part of debugging a complex issue like this.</p>
 <p>We jumped into one of our jobs running on CI, and ran the test code to confirm
 the new behavior. Mystery solved.</p>
+<hr>
 <p>Or was it? Remember the output we saw in the ci:latest  docker container? That
 seemed to indicate something else was going on. Spoiler alert: it was, but it
 was a bit of a red herring. And yes, I went down that rabbit-hole and learned
-something again. Check out the follow up
-[<a href="https://www.zandermackie.com/give-a-damn/">https://www.zandermackie.com/give-a-damn/</a>].</p>
+something again. Check out the <a href="/give-a-damn/">follow up</a>.</p>
 
   
 
