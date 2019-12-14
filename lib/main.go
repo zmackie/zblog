@@ -25,7 +25,7 @@ var postsDir = "posts"
 var postTemplate = `
 +++
 title = "{{.Title}}"
-draft = false
+draft = true
 date = "{{.Date}}"
 
 +++

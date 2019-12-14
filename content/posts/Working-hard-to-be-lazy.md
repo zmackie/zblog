@@ -1,7 +1,7 @@
 
 +++
 title = "Working hard to be lazy"
-draft = false
+draft = true
 date = "2018-06-24T12:50:45.000Z"
 
 +++
@@ -71,6 +71,6 @@ So here's an exhortation: work hard to be lazy. Future you will be glad.
 
  1. basically you can keep runnning the steps as you're trying to get the whole
     thing to work and nothing break. Good for fiddlers... ↩︎
-    
-    
+
+
  2. https://landing.google.com/sre/book/chapters/eliminating-toil.html ↩︎
