@@ -1,7 +1,7 @@
 
 +++
 title = "Working hard to be lazy"
-draft = true
+draft = false
 date = "2018-06-24T12:50:45.000Z"
 
 +++

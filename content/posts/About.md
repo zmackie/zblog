@@ -1,13 +1,17 @@
+---
+title: "About"
+date: 2019-12-14T19:37:31-05:00
+draft: false
+---
 
-+++
-title = "About"
-draft = true
-date = "2018-05-08T01:13:33.000Z"
-
-+++
-I'm Zander Mackie. I work in tech, on cloud stuff and security, but I'm more
-interested in people and bugs than bits. I want to be Dan Geer when I grow up.
-
-In past lives, I studied music with monks in mountains, crafted cave-aged
-cheese, and edited evil advertisments. You could say I've seen a lot. I don't
-know if I'm old, wise, and sad yet, but I've got some grey hairs to prove it.
+I'm Zander. I've worked in tech for a few years, lately in the cloud and container space. I'm currently a PM at Pivotal working on [Cloud Native Buildpacks](buildpacks.io). Before I was a software engineer I had a motley path. I've done:
+- Dishwashing
+- Van driving
+- Photo book preparation
+- Radio news anchoring
+- Video editing
+- Failed philosophy studenting
+- Fried chicken sandwich making
+- Cheesemongering and cheesemaking
+- Hospice cook
+- Artist assisting (including scat identification)

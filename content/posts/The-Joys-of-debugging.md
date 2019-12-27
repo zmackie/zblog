@@ -1,7 +1,7 @@
 
 +++
 title = "The Joys of debugging"
-draft = true
+draft = false
 date = "2018-11-01T21:31:21.000Z"
 
 +++

@@ -1,7 +1,7 @@
 
 +++
 title = "Give a damn"
-draft = true
+draft = false
 date = "2018-11-13T18:43:01.000Z"
 
 +++
