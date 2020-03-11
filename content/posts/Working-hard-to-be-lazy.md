@@ -5,6 +5,9 @@ draft = false
 date = "2018-06-24T12:50:45.000Z"
 
 +++
+
+![Ursula k Le Guin](../../data/Phillips-Ursula-K-LeGuin.jpg)
+
 So that's a picture of a great writer, UKLG. She's completely not lazy, so
 apologies to her for inclusion. She's here, though, because she invented
 something great: The ansible 🌌. And why is that relevant? We'll get there...
@@ -69,7 +72,7 @@ So here's an exhortation: work hard to be lazy. Future you will be glad.
 
 --------------------------------------------------------------------------------
 
- 1. basically you can keep runnning the steps as you're trying to get the whole
+ 1. basically you can keep running the steps as you're trying to get the whole
     thing to work and nothing break. Good for fiddlers... ↩︎
 
 

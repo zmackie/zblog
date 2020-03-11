@@ -1,7 +1,7 @@
 
 +++
 title = "How I learned how to learn how to code"
-draft = true
+draft = false
 date = "2018-05-07T23:35:01.000Z"
 
 +++

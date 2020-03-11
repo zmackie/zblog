@@ -18,13 +18,17 @@ users and abusers of our systems.
 
 Perhaps, security is like Justice Potter said:
 
-I know it when I see it.That may be unsatisfactory for many, but when we lack
+> I know it when I see it.
+
+That may be unsatisfactory for many, but when we lack
 even the most basic ability to measure the security relevant properties of our
 systems, how can we know that we're writing secure code? I'm going to let you in
 on a secret: your code will never be 100% secure. You probably realized that in
 your gut somewhere. That's not the $0.99 slice you ate for lunch. Its the
 gnawing worry that somebody somewhere is gonna use your code to do...something
-bad...and you don't like it. And yet the fact that security is never an
+bad...and you don't like it. 
+
+And yet the fact that security is never an
 absolutely decided contest is no reason to bury your head in the sand and ignore
 the subject, my dear developer friend. And so I present, for your consideration,
 a step forward, based on something I tried, on the path of security learning.
@@ -42,4 +46,4 @@ using abstruse rituals, possibly burning bones or old DOS manuals, and they
 would deliver their findings tribunal-like, in a darkened ampitheatere with one
 single torch illuminating their faces and their hands, which would signal to
 you, oh brave developer, with a thumbs up or down, the fate of your precious
-code. Perhaps this primordial Security  scene is what drives our fear now
+code. Perhaps this primordial Security  scene is what drives our fear now.

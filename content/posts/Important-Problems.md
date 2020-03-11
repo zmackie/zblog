@@ -27,26 +27,25 @@ problems facing humanity are tied up with technology: Can technology extricate
 us from the downward spiral of climate change and environmental degradation? Can
 online communities and governance models enabled by pervasive communication
 technology preserve or foster democracy in some meaningful sense, or will they
-simpy sow the seeds of its own destruction? Can technology help people find a
+simply sow the seeds of its own destruction? Can technology help people find a
 new sense of meaning outside of the natural communities and bonds it has had
 some part in severing or will it doom us to a hyper-connection devoid of any
 substance?
 
 I don't have answers to these questions; I don't actually think I (or my fellow
-programmers) am equipped to adress these issue (certainly not on my own). But
+programmers) am equipped to address these issue (certainly not on my own). But
 its certainly incumbent upon us to engage with the meaning and impact of our
-work. And maybe that engagement, in itself, is a grainule of an important
+work. And maybe that engagement, in itself, is a granule of an important
 problem: How can software engineers minimize the harm their work produces and
-how can they produce that work in a minimully harmful way?
+how can they produce that work in a minimally harmful way?
 
 Certainly having job that helps me support a family is deeply meaningful; and
 working at a company that share some of my values or at least seems to minimally
 cut against my grain is a start. And maybe that's okay for now. I'm a bit over
 3.5 years into a career in software; I taught myself to do this with the help
-of
-a blacksmith
-[http://joshuakemp.blogspot.com/2013/11/how-blacksmith-learned-to-code-and-9.html]
- (I literally googled "how to learn how to code" and just followed his advice).
+of a (blacksmith)[http://joshuakemp.blogspot.com/2013/11/how-blacksmith-learned-to-code-and-9.html]; 
+Just so we're clear I literally googled "how to learn how to code" and just followed his advice.
+
 And even though I beat up on myself, if I'm honest I feel like I'm progressing
 at an acceptable trajectory. But I want to ultimately do high impact work in
 this field or, as someone so aptly put it, be a chef instead of a cook. Or else

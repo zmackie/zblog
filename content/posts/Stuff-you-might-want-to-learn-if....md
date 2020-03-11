@@ -1,7 +1,7 @@
 
 +++
 title = "Stuff you might want to learn if..."
-draft = true
+draft = false
 date = "2018-05-14T16:58:44.000Z"
 
 +++
