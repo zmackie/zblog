@@ -3,12 +3,9 @@
 title = "Working hard to be lazy"
 draft = false
 date = "2018-06-24T12:50:45.000Z"
-
 +++
 
-![Ursula k Le Guin](../../data/Phillips-Ursula-K-LeGuin.jpg)
-
-So that's a picture of a great writer, UKLG. She's completely not lazy, so
+So there's a great writer, one of my favorites, UKLG. She's completely not lazy, so
 apologies to her for inclusion. She's here, though, because she invented
 something great: The ansible 🌌. And why is that relevant? We'll get there...
 
