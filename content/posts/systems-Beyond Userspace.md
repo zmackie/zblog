@@ -14,4 +14,5 @@ And yet I just cant' seem to make the commitment to move beyond userspace! (That
 - Work through writing a VM, compiler, and interpreter in rust
 - Work through bootloaders and simple kernel in C
 - Learn how to contribute to the Linux kernel and land a patch
-- Work through the rust embeed
+- Work through the rust embedicon
+- Basically move down into the firmware and root around in the metal!
