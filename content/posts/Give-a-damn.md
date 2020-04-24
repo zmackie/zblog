@@ -46,15 +46,16 @@ in there with all the complaints".
 
 And then I realized something else:
 
-Its always easier to complain than to give a damn. So, why not give a damn?And I
+> Its always easier to complain than to give a damn. So, why not give a damn? 
+
+And I
 deleted my comment and rolled up my sleeves to pitch in.
 
 Now I want to caveat this with saying that I know contributing to OSS is a
 luxury and a privilege. I'm a white, male, childless software engineer, so I
 rank relatively high on the advantages scale. I recognize that, for sure. I also
 recognize that contributing to a very public project like Docker is super scary,
-especially for those who've never contributed to open source. I've a got a post
-in the works about making your first OSS contribution, so stay tuned. So, take
+especially for those who've never contributed to open source. So, take
 what I'm saying with that large rock of salt and not as a finger wagging
 directed at anybody but myself (who even reads this blog anyway?)
 
@@ -66,15 +67,17 @@ and poked around.
 
 As usual, smarter people than me had done most of the work: the requirements
 were pretty well hashed out in discussions, as was the actual API of the flag
-changes. Also Go is generally such a simple, approachable (some would even say
+changes. 
+
+Also Go is generally such a simple, approachable (some would even say
 boring) language that reading the codebase and figuring out where to make the
 change, which is usually the hardest part of contributing to a new project, was
-pretty straightforward. Go project mostly have a standard structure
-[https://github.com/golang-standards/project-layout], so I knew essentially
-where I had to look for the code covering the docker run command. And it turns
+pretty straightforward. Go project mostly have a [standard structure](https://github.com/golang-standards/project-layout), so I knew essentially
+where I had to look for the code covering the docker run command. 
+
+And it turns
 out that I was basically able to leverage the existing logic , with some slight
-modifications and duplications, to achieve my ends. I'm sure the PR
-[https://github.com/docker/cli/pull/1498]  needs work, but its gotten a bit of
+modifications and duplications, to achieve my ends. I'm sure [the PR](https://github.com/docker/cli/pull/1498) needs work, but its gotten a bit of
 attention and hopefully it'll land. And I've got the warm, fuzzy feeling that
 giving back brings. So remember kids, OSS is free and complaining feels good,
 but giving a damn feels better!

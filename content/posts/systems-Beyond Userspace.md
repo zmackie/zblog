@@ -1,7 +1,7 @@
 ---
 title: "Beyond Userspace"
 date: 2020-03-11T10:36:48-04:00
-draft: false
+draft: true
 ---
 
 I've written before about being a self-taught programmer. My path into the field was a bit haphazard, but one thing I've noticed is that my trajectory always moved down. Down from the frontend to the backend to the container to the vm to the host. Currently I work largely at the container abstraction layer. I've got some working knowledge of the linux primitives that serve as the foundation to my current world and the specs that make up the boundaries. I think the roots of that call deeper come from just wanting to understand things. I feel the calling from the deep. I read about the wizards at BBN and I want Halt and Catch Fire, and I feel truly jealous. Jealous of the time they lived in and their level of impact, but also jealous of their knowledge and their accomplishments!
