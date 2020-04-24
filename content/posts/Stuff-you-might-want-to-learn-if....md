@@ -1,7 +1,7 @@
 
 +++
 title = "Stuff you might want to learn if..."
-draft = false
+draft = true
 date = "2018-05-14T16:58:44.000Z"
 
 +++
@@ -23,7 +23,6 @@ How computers work:
    https://www.youtube.com/playlist?list=PLmxT2pVYo5LB5EzTPZGfFN0c2GDiSXgQe
 
 Networking:
-
  * TCP/IP illustrated, vol. 1
  * Some videos
  * wireshark
