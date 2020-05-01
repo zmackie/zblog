@@ -42,7 +42,7 @@ In her book *[Grit](https://amzn.to/2S0WjMj)*, Angela Duckworth calls the combin
 
 I had to tap into my inherent interest in computers, my motivations around a better job, my desire to have more control over my life, remember my youth spent futzing with driver settings. And I was able to bootstrap that grit in something of a flywheel - as I started to buy into the growth mindset, learning to code became more interesting because it was tractable, and as I learned more, I saw that perseverance could really change my skills, I saw the growth in front of me that effort produced.
 
-##### Passion trap
+#### Passion trap
 
 > Quick word about "passion" - the advice to "follow you passion" can actually be quite harmful. If you aren't one of those lucky people who has an innate passion for something you might build a career around, it can be hard to get started. And if you have a passion for something that is not in demand or not valued by the market, it can be disappointing and frustrating move to build a career around that topic (not to say don't do it, just know it'll be a massively uphill battle). 
 
