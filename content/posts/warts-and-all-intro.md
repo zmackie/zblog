@@ -18,3 +18,4 @@ And you'll notice that I didn't talk about sexy/cool tech or "changing the world
 
 It isn't my intention to convince you this is the right move; understand that it will be uphill. And the uphill struggle never really goes away, because technology relentlessly marches forward. However embracing the mindset that nothing worth doing is ever easy, among other shifts in attitude, made a monumental difference in my journey.
 
+I’ll be writing more here and on twitter, [where you can follow](https://twitter.com/the_zmackie) me for more.

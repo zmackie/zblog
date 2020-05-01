@@ -9,7 +9,7 @@ draft: false
 There's a common saying:
 > If I had 5 minutes to cut down a tree, I'd spend three minutes sharpening the axe.
 
-This quote, often attributed to Abe Lincoln ([maybe incorrectly](https://quoteinvestigator.com/2014/03/29/sharp-axe/)) gets to the heart of what I want to talk about today: your mindset towards the journey of learning to code will have everything to do with how smoothly and successfully that journey goes. 
+This old saw, often attributed to Abe Lincoln ([maybe incorrectly](https://quoteinvestigator.com/2014/03/29/sharp-axe/)) gets to the heart of what I want to talk about today: your mindset towards the journey of learning to code will have everything to do with how smoothly and successfully that journey goes. 
 
 Mine was in many ways a halting, rocky trip. But I learned somethings about managing myself along the way. If there's one thing to take away from this post: **Adopt a growth mindset.**
 
@@ -29,14 +29,14 @@ This is known, in the excellent framing of Carol Dweck, as a "fixed mindset". Sh
 
 What you take away from a challenging session of working at something is not "I'm bad at this" but "I'm working hard to get better at this thing, that's awesome!" So, celebrate you efforts; your success will ultimately be a product of work. The sooner you embrace that view, the quicker you'll get on the path to achieving your goals.
 
-https://twitter.com/the_zmackie/status/1255186309439766528?s=20
+[!so true](https://pbs.twimg.com/media/EWtQOc6XgAENyx9?format=jpg&name=large)
 
 I think this comment speaks directly to the issue of being attached to some image of yourself. Part of adopting a growth mindset means you have to actually accept that the way you see yourself might have to change; your identity has to shift from being "smart" or a "fast learner", to that of "lifelong learner", "hard worker", "I embrace challenge", etc.
 And anyway, I was a kid when I decided coding wasn't for me. At the time, I was more interested in Myst and Oregon trail (and then later Counter-Strike) and gaming in general than I was in actually coding. I *did* get pretty good at configuring windows drivers because I was always hacking together computers to play games. 
 
 I would futz for hours, breaking those machines down, staring at bluescreens and BIOS prompts, to get those computers hooked up. And at a certain point, the stubbornness that it took to suss out a single tiny black lego piece from a huge box, something I had learned as an even younger kid, became its own reward as a saw the results, the computer booting up, and that new graphics card working. Later on, I was lucky enough to learn that talent is not the same as skill and that it must by **combined** with perseverance. 
 
-#### Growth + Persevernce = Grit
+#### Growth + Perseverance = Grit
 
 In her book *[Grit](https://amzn.to/2S0WjMj)*, Angela Duckworth calls the combination of perseverance and passion **Grit**. Grits is something I had to develop; its not a flattering thing to say about myself, but I was in many ways the opposite of gritty when i started out - I was looking for the easy success, robbing myself of the growth that would come through effort. 
 
@@ -50,3 +50,5 @@ I had to tap into my inherent interest in computers, my motivations around a bet
 What does tend to happen, I believe, is something of a flywheel: we develop an interest in something, we then develop some skill, people see our value and reward us, that makes the topic more interesting, we work to become better, and the cycle continues. I would bet most people who have a satisfying career didn't necessary start with being passionate about the subject of their work. Cal Newport unpacks this idea nicely in *[So good they can't ignore you](https://amzn.to/34VHYGg)* which I recommend you read (lots of recommended reading here...maybe a theme 🤔 ).
 
 What I saw, as I sat down at my computer at 5:00AM in the mornings to write out lines from a tattered copy of Chris Pine's *[Learn to Program](https://amzn.to/2VsimNX)*, was that I *could* code. It was not easy, by any stretch of the imagination, and there was a huge amount of work to get from a simple variable assignment to professionally qualified. Along the way there were many dark days; unemployment, fights about money, depression, gray hairs, many early mornings and late nights. But I was doing it. And it was only by changing **myself**, by looking inward, that I was able to take those first steps. So here's what I hope you take away: Embrace changing your mindset towards learning to code - it will take work but that's how you know you're learning!
+
+I’ll be writing more here and on twitter, [where you can follow](https://twitter.com/the_zmackie) me for more.
