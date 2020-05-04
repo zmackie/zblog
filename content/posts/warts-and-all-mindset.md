@@ -38,7 +38,7 @@ I would futz for hours, breaking those machines down, staring at bluescreens and
 
 #### Growth + Perseverance = Grit
 
-In her book *[Grit](https://amzn.to/2S0WjMj)*, Angela Duckworth calls the combination of perseverance and passion **Grit**. Grits is something I had to develop; its not a flattering thing to say about myself, but I was in many ways the opposite of gritty when i started out - I was looking for the easy success, robbing myself of the growth that would come through effort. 
+In her book *[Grit](https://amzn.to/2S0WjMj)*, Angela Duckworth calls the combination of perseverance and passion **Grit**. The perseverance and drive is something I had to develop; its not a flattering thing to say about myself, but I was in many ways the opposite of gritty when i started out - I was looking for the easy success, robbing myself of the growth that would come through effort. 
 
 I had to tap into my inherent interest in computers, my motivations around a better job, my desire to have more control over my life, remember my youth spent futzing with driver settings. And I was able to bootstrap that grit in something of a flywheel - as I started to buy into the growth mindset, learning to code became more interesting because it was tractable, and as I learned more, I saw that perseverance could really change my skills, I saw the growth in front of me that effort produced.
 
