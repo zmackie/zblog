@@ -2,6 +2,7 @@
 title: "Warts and All: Intro"
 date: 2020-04-24T10:48:48-04:00
 draft: false
+
 ---
 ![Chmee2/Valtameri / CC BY (https://creativecommons.org/licenses/by/3.0)](https://upload.wikimedia.org/wikipedia/commons/f/fb/Landscape_during_Laugavegur_hiking_trail_2-CA_reduced.jpg)
 

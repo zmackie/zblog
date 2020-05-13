@@ -1,14 +1,16 @@
 ---
-title: "Warts and All: Why "learning how to learn" matters"
+title: "Warts and All: Why learning how to learn matters"
 draft: false
-date: 2020-05-07T23:35:01.000Z
+date: 2020-05-07T23:35:01
+
 ---
 
 
 ![en:User:Cburnett / CC BY-SA (http://creativecommons.org/licenses/by-sa/3.0/)](https://upload.wikimedia.org/wikipedia/commons/b/b0/Hamming%287%2C4%29.svg)
 
 
-I while ago, I was reading the [Turing Omnibus](https://blog.codinghorror.com/practicing-the-fundamentals-the-new-turing-omnibus/), doing some research into error correction, and
+
+A while ago, I was reading the [Turing Omnibus](https://blog.codinghorror.com/practicing-the-fundamentals-the-new-turing-omnibus/), doing some research into error correction, and
 I learned about [Hamming Codes](https://en.wikipedia.org/wiki/Hamming_code). I might have understood the concept at the time,
 but today, what I remember is the offhand comment my friend made about their
 creator, Richard Hamming.
@@ -45,8 +47,8 @@ compound interest.
 
 He's actually making two points here, which I'll unpack.
 
-Firstly, because because knowledge is compounding, knowing more is a virtuous
-cycle. 
+**The first point:** because because knowledge is compounding, knowing more is a virtuous
+cycle.
 
 And in terms of what you choose to learn, there's a spectrum from
 essentially useless to rather useful. And what I mean by useful knowledge here
@@ -103,9 +105,8 @@ instead of feeling like you're constantly falling behind.
 That's what we mean by perspective. And I'm not there yet, but I feel like I've found the pointer to
 the moon.
 
---------------------------------------------------------------------------------
 
-The other point Hamming was making in the above quote is about the virtues of
+**The other point** Hamming was making in the above quote is about the virtues of
 drive and hard work; these are the things that it takes to succeed and do the
 good stuff. No substitutes for putting in the time on the right  things, to be
 sure, but he's also making a deeper point about understanding the keys to
