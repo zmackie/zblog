@@ -1,9 +1,12 @@
 ---
-title: "Flaws Writeup"
+title: "flAWS.cloud Writeup"
 date: 2020-08-17T10:22:46-04:00
-draft: true
+draft: false
 ---
 
+This post is a quick writeup of going through the challenges at http://flaws.cloud. These challenges demonstrate vulnerabilities that commonly happen in AWS environments and are a great time!
+
+---
 ### Challenge 1:
 
 At `flaws.cloud` you need to do a little recon. I'm sort of bad at this, so I checked the hint, which suggest poking around with `dig`. So I ran:
@@ -279,5 +282,5 @@ Access that subdir and you're in!
 This one was a bit obscure for me, honestly, but it was a lesson in the fact that even simple read permissions given out too liberally can be a major flaws. Its equivalent to dumping a stack trace for an app - just more information an attacker can use to find flaws.
 
 
-Thats all folks!!!
+Thats all folks!!!  
 
