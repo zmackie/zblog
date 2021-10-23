@@ -1,8 +1,8 @@
 # baseURL = "zmackie.com"
 languageCode = "en-us"
 defaultContentLanguage = "en"
-title = "z. blog"
-theme = "papercss-hugo-theme"
+title = "zmackie"
+theme = "PaperMod"
 googleAnalytics = "UA-163788155-1"
 
 [permalinks]
